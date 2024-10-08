@@ -53,7 +53,10 @@ console.log('Last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length
 //       property, rather than the exact (hardcoded) index number of the last item.
-
+// let lastIndex = ;
+// console.log('Index of last animal is', lastIndex);
+let lastAnimalStretch = animalArray[animalArray.length - 1];
+console.log('Last animal (stretch) is', lastAnimalStretch);
 
 
 // Adding & Removing Array Items

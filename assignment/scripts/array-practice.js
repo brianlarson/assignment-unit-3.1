@@ -10,6 +10,8 @@ console.log('Animals are: ', animalArray);
 // 1. TODO: Make an array `favoriteFoods` with some favorite foods.
 //    Be sure to console.log your array of foods to the console with
 //    a message, similar to the example above.
+let favoriteFoods = ['Breakfast Pizza', 'Cream Cheese Wontons', 'PB&J Burgers', 'Peanut M&M\'s'];
+console.log(favoriteFoods);
 
 
 // Array.length: A property that tells you how many items are in a given array.
@@ -22,6 +24,8 @@ console.log('Number of animals:', numberOfAnimals);
 // 2. TODO: Create a variable `numberOfFoods` and use the .length property
 //    to assign it the number value of how many items are inside `favoriteFoods`.
 //    Don't forget to console.log `numberOfFoods` to make sure your code worked!
+let numberOfFoods = favoriteFoods.length;
+console.log('Number of foods:', numberOfFoods);
 
 
 // Accessing array items
@@ -43,7 +47,7 @@ console.log('First animal is', firstAnimal);
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
 
-// 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
+// 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length
 //       property, rather than the exact (hardcoded) index number of the last item.
 
 
@@ -95,7 +99,7 @@ console.log('The animals are now', animalArray);
 
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
-//      To verify that your code worked, console.log `firstColor`!  
+//      To verify that your code worked, console.log `firstColor`!
 
 
 
@@ -121,7 +125,7 @@ let gems = ['Topaz', 'Citrine', 'Diamond', 'Emerald', 'Iolite', 'Tanzanite'];
 //     Don't forget to console.log `gemString`...
 
 
-// 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines 
+// 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines
 //     the gems array with the colors array.
 //     It should look something like:
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']

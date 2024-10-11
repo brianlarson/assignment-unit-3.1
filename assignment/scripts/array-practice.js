@@ -131,6 +131,8 @@ console.log('Gems is now', gems);
 
 // 5.b (STRETCH) TODO: Sort your gems array in reverse alphabetical order.
 //     Please console.log the sorted array.
+gems = gems.sort().reverse();
+console.log('Gems sorted and reversed is', gems);
 
 
 // 5.c (STRETCH) TODO: Create a variable `gemString` and assign it a string value
@@ -140,6 +142,8 @@ console.log('Gems is now', gems);
 //       "Emerald and Diamond and Tourmaline and Topaz"
 //     🔥 You'll need to research the .join Array method. 🔥
 //     Don't forget to console.log `gemString`...
+let gemString = gems.join(' and ');
+console.log('Gems string is', gemString);
 
 
 // 5.d (STRETCH) TODO: Make a new array `colorfulGems` that combines

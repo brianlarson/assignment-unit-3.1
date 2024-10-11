@@ -151,6 +151,8 @@ console.log('Gems string is', gemString);
 //     It should look something like:
 //       ['Tourmaline', 'Topaz', 'Tanzanite', 'Iolite', 'Emerald', 'Diamond', 'yellow', 'green']
 //     Now, console.log the new array.
+let colorfulGems = gems.concat(colors);
+console.log('Colorful gems are', colorfulGems);
 
 
 
